@@ -256,12 +256,13 @@ Create a new branch so you can check items like this, just put an x in the brack
 
 1. Mark all boxes with X after you completed your changes:
 
+    ```
     git add .
     git commit -m "Marked x"
     git rebase jwasham/main
     git push --set-upstream origin progress
     git push --force
-
+    ```
 
 ## Don't feel you aren't smart enough
 
